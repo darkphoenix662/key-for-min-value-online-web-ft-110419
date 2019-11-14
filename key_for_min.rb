@@ -8,11 +8,11 @@ def key_for_min_value(name_hash)
   default_value= 1000
   default_key= 0
 
-  name_a.each do |i|
+  name_a.collect do |i|
       if i[1] < default_value
         default_value = i[1]
         default_key = i[0]
-        puts default_key
+        return default_key
       else
         return nil
       end
