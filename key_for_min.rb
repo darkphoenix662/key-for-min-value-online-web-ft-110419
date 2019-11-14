@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
       if i[1] < default_value
         default_value = i[1]
         default_key = i[0]
-        return default_value
+        puts default_key
       else
         return nil
       end
