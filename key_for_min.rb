@@ -11,6 +11,8 @@ def key_for_min_value(name_hash)
       if i[1] < default_value
         default_value = i[1]
         default_key = i[0]
+      else
+        return nil 
       end
 
    end
