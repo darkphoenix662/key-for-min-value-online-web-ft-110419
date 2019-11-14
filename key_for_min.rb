@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   name_a = name_hash.to_a
 
-  default_value= 500
+  default_value= 50000
   default_key= 0
   
   name_a.each do |i|
